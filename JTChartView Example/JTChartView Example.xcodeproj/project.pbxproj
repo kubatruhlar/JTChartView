@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B8110D61B4444D7005C2B7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8110D51B4444D7005C2B7A /* main.m */; };
+		3B8110D91B4444D7005C2B7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8110D81B4444D7005C2B7A /* AppDelegate.m */; };
+		3B8110DC1B4444D7005C2B7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8110DB1B4444D7005C2B7A /* ViewController.m */; };
+		3B8110DF1B4444D7005C2B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8110DD1B4444D7005C2B7A /* Main.storyboard */; };
+		3B8110E11B4444D7005C2B7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8110E01B4444D7005C2B7A /* Images.xcassets */; };
+		3B8110E41B4444D7005C2B7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B8110E21B4444D7005C2B7A /* LaunchScreen.xib */; };
+		3B8110F01B4444D8005C2B7A /* JTChartView_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8110EF1B4444D8005C2B7A /* JTChartView_ExampleTests.m */; };
+		3B8111011B444559005C2B7A /* JTChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8111001B444559005C2B7A /* JTChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B8110EA1B4444D8005C2B7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8110C81B4444D7005C2B7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B8110CF1B4444D7005C2B7A;
+			remoteInfo = "JTChartView Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B8110D01B4444D7005C2B7A /* JTChartView Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JTChartView Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8110D41B4444D7005C2B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8110D51B4444D7005C2B7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B8110D71B4444D7005C2B7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B8110D81B4444D7005C2B7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B8110DA1B4444D7005C2B7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B8110DB1B4444D7005C2B7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B8110DE1B4444D7005C2B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B8110E01B4444D7005C2B7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B8110E31B4444D7005C2B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B8110E91B4444D8005C2B7A /* JTChartView ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JTChartView ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8110EE1B4444D8005C2B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8110EF1B4444D8005C2B7A /* JTChartView_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTChartView_ExampleTests.m; sourceTree = "<group>"; };
+		3B8110FF1B444559005C2B7A /* JTChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTChartView.h; sourceTree = "<group>"; };
+		3B8111001B444559005C2B7A /* JTChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B8110CD1B4444D7005C2B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8110E61B4444D8005C2B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B8110C71B4444D7005C2B7A = {
+			isa = PBXGroup;
+			children = (
+				3B8110FE1B444559005C2B7A /* JTChartView */,
+				3B8110D21B4444D7005C2B7A /* JTChartView Example */,
+				3B8110EC1B4444D8005C2B7A /* JTChartView ExampleTests */,
+				3B8110D11B4444D7005C2B7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B8110D11B4444D7005C2B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B8110D01B4444D7005C2B7A /* JTChartView Example.app */,
+				3B8110E91B4444D8005C2B7A /* JTChartView ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B8110D21B4444D7005C2B7A /* JTChartView Example */ = {
+			isa = PBXGroup;
+			children = (
+				3B8110D71B4444D7005C2B7A /* AppDelegate.h */,
+				3B8110D81B4444D7005C2B7A /* AppDelegate.m */,
+				3B8110DA1B4444D7005C2B7A /* ViewController.h */,
+				3B8110DB1B4444D7005C2B7A /* ViewController.m */,
+				3B8110DD1B4444D7005C2B7A /* Main.storyboard */,
+				3B8110E01B4444D7005C2B7A /* Images.xcassets */,
+				3B8110E21B4444D7005C2B7A /* LaunchScreen.xib */,
+				3B8110D31B4444D7005C2B7A /* Supporting Files */,
+			);
+			path = "JTChartView Example";
+			sourceTree = "<group>";
+		};
+		3B8110D31B4444D7005C2B7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B8110D41B4444D7005C2B7A /* Info.plist */,
+				3B8110D51B4444D7005C2B7A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B8110EC1B4444D8005C2B7A /* JTChartView ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B8110EF1B4444D8005C2B7A /* JTChartView_ExampleTests.m */,
+				3B8110ED1B4444D8005C2B7A /* Supporting Files */,
+			);
+			path = "JTChartView ExampleTests";
+			sourceTree = "<group>";
+		};
+		3B8110ED1B4444D8005C2B7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B8110EE1B4444D8005C2B7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B8110FE1B444559005C2B7A /* JTChartView */ = {
+			isa = PBXGroup;
+			children = (
+				3B8110FF1B444559005C2B7A /* JTChartView.h */,
+				3B8111001B444559005C2B7A /* JTChartView.m */,
+			);
+			name = JTChartView;
+			path = ../JTChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B8110CF1B4444D7005C2B7A /* JTChartView Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8110F31B4444D8005C2B7A /* Build configuration list for PBXNativeTarget "JTChartView Example" */;
+			buildPhases = (
+				3B8110CC1B4444D7005C2B7A /* Sources */,
+				3B8110CD1B4444D7005C2B7A /* Frameworks */,
+				3B8110CE1B4444D7005C2B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JTChartView Example";
+			productName = "JTChartView Example";
+			productReference = 3B8110D01B4444D7005C2B7A /* JTChartView Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B8110E81B4444D8005C2B7A /* JTChartView ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8110F61B4444D8005C2B7A /* Build configuration list for PBXNativeTarget "JTChartView ExampleTests" */;
+			buildPhases = (
+				3B8110E51B4444D8005C2B7A /* Sources */,
+				3B8110E61B4444D8005C2B7A /* Frameworks */,
+				3B8110E71B4444D8005C2B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B8110EB1B4444D8005C2B7A /* PBXTargetDependency */,
+			);
+			name = "JTChartView ExampleTests";
+			productName = "JTChartView ExampleTests";
+			productReference = 3B8110E91B4444D8005C2B7A /* JTChartView ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B8110C81B4444D7005C2B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jakub Truhlar";
+				TargetAttributes = {
+					3B8110CF1B4444D7005C2B7A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					3B8110E81B4444D8005C2B7A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 3B8110CF1B4444D7005C2B7A;
+					};
+				};
+			};
+			buildConfigurationList = 3B8110CB1B4444D7005C2B7A /* Build configuration list for PBXProject "JTChartView Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B8110C71B4444D7005C2B7A;
+			productRefGroup = 3B8110D11B4444D7005C2B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B8110CF1B4444D7005C2B7A /* JTChartView Example */,
+				3B8110E81B4444D8005C2B7A /* JTChartView ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B8110CE1B4444D7005C2B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8110DF1B4444D7005C2B7A /* Main.storyboard in Resources */,
+				3B8110E41B4444D7005C2B7A /* LaunchScreen.xib in Resources */,
+				3B8110E11B4444D7005C2B7A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8110E71B4444D8005C2B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B8110CC1B4444D7005C2B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8110DC1B4444D7005C2B7A /* ViewController.m in Sources */,
+				3B8110D91B4444D7005C2B7A /* AppDelegate.m in Sources */,
+				3B8110D61B4444D7005C2B7A /* main.m in Sources */,
+				3B8111011B444559005C2B7A /* JTChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8110E51B4444D8005C2B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8110F01B4444D8005C2B7A /* JTChartView_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B8110EB1B4444D8005C2B7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B8110CF1B4444D7005C2B7A /* JTChartView Example */;
+			targetProxy = 3B8110EA1B4444D8005C2B7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B8110DD1B4444D7005C2B7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8110DE1B4444D7005C2B7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B8110E21B4444D7005C2B7A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8110E31B4444D7005C2B7A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B8110F11B4444D8005C2B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B8110F21B4444D8005C2B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B8110F41B4444D8005C2B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JTChartView Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B8110F51B4444D8005C2B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JTChartView Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B8110F71B4444D8005C2B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JTChartView ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTChartView Example.app/JTChartView Example";
+			};
+			name = Debug;
+		};
+		3B8110F81B4444D8005C2B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JTChartView ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTChartView Example.app/JTChartView Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B8110CB1B4444D7005C2B7A /* Build configuration list for PBXProject "JTChartView Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8110F11B4444D8005C2B7A /* Debug */,
+				3B8110F21B4444D8005C2B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8110F31B4444D8005C2B7A /* Build configuration list for PBXNativeTarget "JTChartView Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8110F41B4444D8005C2B7A /* Debug */,
+				3B8110F51B4444D8005C2B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8110F61B4444D8005C2B7A /* Build configuration list for PBXNativeTarget "JTChartView ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8110F71B4444D8005C2B7A /* Debug */,
+				3B8110F81B4444D8005C2B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B8110C81B4444D7005C2B7A /* Project object */;
+}
