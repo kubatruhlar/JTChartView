@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
   s.name         = "JTChartView"
   s.version      = "1.0.0"
-  s.summary      = "**JTChartView** is the new **lightweight and fully customizable solution** to **draw a curve** and fill the space underneath it with a **gradient**."
+  s.summary      = "**JTChartView** is the new **lightweight and fully customizable solution** to **draw a chart**."
 
   s.description  = <<-DESC
-                   **JTChartView** is the new **lightweight and fully customizable solution** to **draw a curve** and fill the space underneath it with a **gradient**. The result is a **beautiful chart**.
+                   **JTChartView** is the new **lightweight and fully customizable solution** to **draw a curve** and fill the space underneath it with a **gradient**.
                    DESC
 
   s.homepage     = "https://github.com/kubatru/JTChartView"
-  s.screenshots  = "https://raw.githubusercontent.com/kubatru/JTChartView/master/Screens/example.png"
+  s.screenshots  = "https://raw.githubusercontent.com/kubatru/JTChartView/master/Screens/example.PNG"
 
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
   s.author    = "Jakub Truhlar"
