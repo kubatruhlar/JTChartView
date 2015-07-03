@@ -3,8 +3,8 @@
 **JTChartView** is the new **lightweight and fully customizable solution** to **draw a curve** and fill the space underneath it with a **gradient**. The result is a **beautiful chart**.
 
 <h3 align="center">
-  <img src="https://github.com/kubatru/JTChartView/blob/master/Screens/chart1.png" alt="Example Chart 1"/>
-<img src="https://github.com/kubatru/JTChartView/blob/master/Screens/chart2.png" alt="Example Chart 2"/>
+  <img src="https://github.com/kubatru/JTChartView/blob/master/Screens/chart1.png" alt="Example Chart 1" width="300"/>
+<img src="https://github.com/kubatru/JTChartView/blob/master/Screens/chart2.png" alt="Example Chart 2" width="300"/>
 </h3>
 
 
@@ -34,7 +34,15 @@ baseChartView.layer.masksToBounds = true;
 baseChartView.backgroundColor = [UIColor whiteColor];
 
 // JTChartView
-JTChartView *chartView = [[JTChartView alloc] initWithFrame:baseChartView.bounds values:@[@15, @5, @10] curveColor:[UIColor grayColor] curveWidth:5.0 topGradientColor:[UIColor redColor] bottomGradientColor:[UIColor orangeColor] minY:0.5 maxY:1.0 topPadding:10.0];
+JTChartView *chartView = [[JTChartView alloc] initWithFrame:baseChartView.bounds 
+                                              values:@[@15, @5, @10] 
+                                              curveColor:[UIColor grayColor] 
+                                              curveWidth:5.0 
+                                              topGradientColor:[UIColor redColor] 
+                                              bottomGradientColor:[UIColor orangeColor] 
+                                              minY:0.5 
+                                              maxY:1.0 
+                                              topPadding:10.0];
 [baseChartView addSubview:chartView];
 ```
 
