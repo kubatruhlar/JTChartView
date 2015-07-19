@@ -1,3 +1,7 @@
+[![Version](https://img.shields.io/cocoapods/v/JTChartView.svg)](http://cocoapods.org/pods/JTChartView)
+[![License](https://img.shields.io/cocoapods/l/JTChartView.svg)](http://cocoapods.org/pods/JTChartView)
+[![Platform](https://img.shields.io/cocoapods/p/JTChartView.svg)](http://cocoapods.org/pods/JTChartView)
+
 # JTChartView
 
 **JTChartView** is the new **lightweight and fully customizable solution** to **draw a curve** and fill the space underneath it with a **gradient**. The result is a **beautiful chart**.
