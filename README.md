@@ -7,8 +7,8 @@
 **JTChartView** is the new **lightweight and fully customizable solution** to **draw a curve** and fill the space underneath it with a **gradient**. The result is a **beautiful chart**.
 
 <h3 align="center">
-  <img src="https://github.com/kubatru/JTChartView/blob/master/Screens/chart1.png" alt="Example Chart 1" width="300"/>
-<img src="https://github.com/kubatru/JTChartView/blob/master/Screens/chart2.png" alt="Example Chart 2" width="300"/>
+  <img src="https://github.com/kubatruhlar/JTChartView/blob/master/Screens/chart1.png" alt="Example Chart 1" width="300"/>
+<img src="https://github.com/kubatruhlar/JTChartView/blob/master/Screens/chart2.png" alt="Example Chart 2" width="300"/>
 </h3>
 
 
