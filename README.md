@@ -28,7 +28,7 @@ You may also quick try the example project with
 
 ## Usage and Customization
 
-**JTChartView** is designed to be created in one initialization line of code. Core logic creates all layers and draw them into final **JTChartView**. You **MUST** create a **parent view** for that **JTChartView** to kepp it work correctly.
+**JTChartView** is designed to be created in one initialization line of code. Core logic creates all layers and draws them into final **JTChartView**. You **MUST** create a **parent view** for that **JTChartView** to keep it working correctly.
 
 ### Simple programmatic example:
 ```objective-c
