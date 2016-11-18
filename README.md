@@ -50,11 +50,6 @@ JTChartView *chartView = [[JTChartView alloc] initWithFrame:baseChartView.bounds
 [baseChartView addSubview:chartView];
 ```
 
-## Changelog
-
-### v1.0.0 - 07.03.15
-- [**NEW**] Initial commit
-
 ## Author
 This library is open-sourced by [Jakub Truhlar](http://kubatruhlar.cz).
     
