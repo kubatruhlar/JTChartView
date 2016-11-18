@@ -30,7 +30,7 @@ You may also quick try the example project with
 
 **JTChartView** is designed to be created in one initialization line of code. Core logic creates all layers and draws them into final **JTChartView**. You **MUST** create a **parent view** for that **JTChartView** to keep it working correctly.
 
-### Simple programmatic example:
+### Simple example:
 ```objective-c
 // Parent view (Whatever you need)
 UIView *baseChartView = [[UIView alloc] initWithFrame:CGRectMake(30.0, 30.0, self.view.frame.size.width - 60.0, self.view.frame.size.width - 60.0)];
